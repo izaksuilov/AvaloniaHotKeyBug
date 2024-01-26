@@ -15,7 +15,6 @@
   <StackPanel>
     <Menu>
       <MenuItem Header="Open me and after that the hotkey will work">
-        <!--Открыть проект-->
         <MenuItem Header="Test Command"
                   Command="{Binding TestCommand}"
                   HotKey="Ctrl+O" InputGesture="Ctrl+O">
